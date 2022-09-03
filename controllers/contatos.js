@@ -9,7 +9,7 @@ module.exports = app => {
       const { contato } = req.body
       const { usuario } = req.session
       usuario.contatos.push(contato)
-      console.log(usuario.contatos)
+      console.log(usuario)
       res.redirect('/contatos')
     },
     show(req, res) {

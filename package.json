@@ -4,7 +4,7 @@
   "description": "Node talk - Agenda de contatos",
   "private": false,
   "scripts": {
-    "start": "node app.js"
+    "start": "nodemon app.js"
   },
   "dependencies": {
     "consign": "^0.1.6",
@@ -12,6 +12,8 @@
     "ejs": "~2.6.1",
     "express": "~4.16.1",
     "express-session": "^1.17.3",
-    "method-override": "^3.0.0"
+    "method-override": "^3.0.0",
+    "nodemon": "^2.0.19",
+    "socket.io": "^4.5.1"
   }
 }
